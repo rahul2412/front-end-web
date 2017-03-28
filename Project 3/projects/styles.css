@@ -1,0 +1,23 @@
+span{
+font-weight:bold;}
+
+p.italic{
+font-style:italic;}
+body{ margin-left:500px;
+margin-right:500px;
+ border:1px solid red;
+box-shadow: 10px 10px 5px;
+}
+div{
+padding-left:20px;
+padding-right:20px;}
+div.list{ 
+text-align: left;}
+div.info{
+margin-top:15px;
+  margin-left:15px;
+margin-right:15px;
+margin-bottom:15px;
+border :1px solid red;
+
+}

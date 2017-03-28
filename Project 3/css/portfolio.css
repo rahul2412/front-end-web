@@ -1,0 +1,241 @@
+﻿#sq01 {
+    width: 60px;
+    height: 60px;
+    background-color: #02b3e4;
+}
+#sq02 {
+    width: 60px;
+    height: 60px;
+    background-color: #2d3c49;
+}
+#sq03 {
+    width: 60px;
+    height: 60px;
+    background-color: #7d97ad;
+}
+div.right {
+    margin-left: -195px;
+}
+div.left {
+    margin-left: -45px;
+    padding-top: 143px;
+}
+p.below {
+    font-family: verdana;
+    font-size: 18px;
+}
+div.images {
+    text-align: center;
+}
+p.work {
+    font-family: arial;
+    font-size: 28px;
+    padding-left: 30px;
+    color: blue;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+}
+div.down {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+@media screen and (max-width: 1257px) and (min-width: 1200px) {
+    div.left {
+        padding-left: 40px;
+    }
+}
+@media screen and (max-width: 1072px) {
+    div.main-image {
+        max-width: 90%;
+        height: auto;
+        margin: auto;
+    }
+    @media screen and (max-width: 1048px) and (min-width: 992px) {
+        div.left {
+            padding-left: 40px;
+        }
+    }
+    @media screen and (max-width: 1072px) {
+        div.main-image {
+            max-width: 85%;
+            height: auto;
+            margin: auto;
+        }
+    }
+    @media screen and (max-width: 828px) and (min-width: 768px) {
+        div.left {
+            padding-left: 40px;
+        }
+        div.main-image {
+            max-width: 80%;
+            height: auto;
+            padding-left: 40px;
+            margin: auto;
+        }
+        div.down {
+            position: relative;
+            left: -30px;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        div.left {
+            max-width: 100%;
+            position: relative;
+            top: 15px;
+            padding-left: 50px;
+        }
+        div.right {
+            max-width: 120%;
+            height: auto;
+            padding-left: 340px;
+            position: relative;
+            top: -450px;
+        }
+        p.work {
+            text-align: center;
+        }
+        span {
+            max-width: 90%;
+            position: relative;
+            top: 67px;
+        }
+        div.main-image {
+            max-width: 110%;
+            height: auto;
+            margin-left: -60px;
+        }
+        #sq01,
+        #sq02,
+        #sq03 {
+            width: 50px;
+            height: 50px;
+        }
+    }
+    @media screen and (max-width: 575px) {
+        div.main-image {
+            max-width: 100%;
+            height: auto;
+            margin-left: -55px;
+        }
+        div.right {
+            padding-top: 75px;
+        }
+        div.left {
+            position: relative;
+            top: -10px;
+        }
+        #sq01,
+        #sq02,
+        #sq03 {
+            width: 25px;
+            height: 25px;
+        }
+        div.left {
+            position: relative;
+            top: 67px;
+        }
+        header {
+            padding-top: 45px;
+        }
+    }
+   @media screen and (max-width: 509px) {
+        div.main-image {
+            max-width: 120%;
+            height: auto;
+        }
+        div.left {
+            position: relative;
+            top: 50px;
+        }
+        div.down {
+            margin-left: -45px;
+        }
+        div.right {
+            max-width: 140%;
+        }
+        header {
+            position: relative;
+            top: 20px;
+        }
+         p.work {
+            font-family: arial;
+            font-size: 18px;
+            color: blue;
+            letter-spacing: 2px;
+            word-spacing: 4px;
+        }
+        #sq01,
+        #sq02,
+        #sq03 {
+            width: 25px;
+            height: 25px;
+        }
+    }
+
+@media screen and (max-width: 449px) {
+    #sq01,
+    #sq02,
+    #sq03 {
+        width: 15px;
+        height: 15px;
+    }
+    header {
+        text-align: left;
+    }
+    div.right {
+        margin-top: 40px;
+    }
+    div.left {
+        position: relative;
+        top: 100px;
+    }
+    div.main-image {
+        min-width: 210px;
+        min-height: 180px;
+    }
+    div.down {
+        position: relative;
+        left: -55px;
+        top: -30px;
+    }
+    div.images {
+        max-width: 80%;
+        max-height: auto;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 375px) and (min-width: 346px) {
+    p.below,
+    p.link {
+        padding-left: 60px;
+    }
+}
+@media screen and (max-width: 345px) {
+    div.main-image {
+        min-width: 190px;
+        min-height: 150px;
+        position: relative;
+        right: 15px;
+    }
+    p.below,
+    p.link {
+        padding-left: 60px;
+    }
+    div.down {
+        position: relative;
+        left: -65px;
+    }
+    p.work {
+        position: relative;
+        left: 15px;
+    }
+    header,
+    span {
+        position: relative;
+        right: 40px;
+    }
+    div.images {
+        position: relative;
+        right: 20px;
+    }
+}

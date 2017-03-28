@@ -1,0 +1,22 @@
+body {
+    background-color: blue;
+}
+h1,
+h3 {
+    text-align: center;
+}
+#map {
+    height: 400px;
+    width: 95%;
+}
+div.searchbox {
+    background-color: orange;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+p.copyprotect {
+    text-align: right;
+    font-weight: bold;
+}
