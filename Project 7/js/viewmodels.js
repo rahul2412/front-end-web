@@ -42,7 +42,8 @@
              animation: google.maps.Animation.DROP,
              ids: markers[i].id
          });
-
+         
+         marker.setIcon('http://maps.google.com/mapfiles/ms/icons/blue-dot.png');
          self.arr.push(marker);
          console.log(self.arr[i].name);
 
