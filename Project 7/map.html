@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Delhi Map</title>
+</head>
+
+<body>
+    <h1><u>New Delhi</u></h1>
+    <h3>-Heart Of India</h3>
+    <div class="searchbox">
+        <p>Type in the searchbox below to search for your landmark...</p>
+        <input placeholder=" type landmarks here..." data-bind="value: searchPlace, valueUpdate: 'afterkeydown' ,event: {keyup: search}" />
+        <ul data-bind="foreach: arr">
+            <li class="landmark_name">
+                <a href="#" class="landmark_name" data-bind="text:name,visible:show,click: $parent.selection" style="font-size:18px"></a>
+            </li>
+        </ul>
+    </div>
+    <div id="map"></div>
+    <p class="copyprotect">@Rahul Passi,2017</p>
+    <script src="js/knockout.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/placedetails.js"></script>
+    <script src="js/viewmodels.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPcdqFm_12nd68YbW6pR6q0Zi98CtJi10&callback=initMap" onerror="goerror()">
+    </script>
+</body>
+
+</html>
