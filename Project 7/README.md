@@ -12,7 +12,7 @@
 
 ## How to RUN
 
-1. open the kmap.html file.
+1. open the map.html file.
 2. after opening it,a map will appear and some locations will be mentioned in it .
   By clicking one of the marker or locations it will show the likes of that locations.
   Also there is a serach box where you can search your location by typing the location name .
