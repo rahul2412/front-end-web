@@ -1,7 +1,6 @@
 ## About the project
 
-1. This project shows the different places in the map of new delhi.
-2. These are all famous landmarks.
+This project shows the different landmarks in the map of new delhi.
 
 ## API's used
 
