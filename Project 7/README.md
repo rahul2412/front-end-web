@@ -2,6 +2,10 @@
 
 This project shows the different landmarks in the map of new delhi.
 
+## Work sample
+
+<img src="https://github.com/rahul2412/front-end-web/blob/master/Project%207/map_img.png" alt="Neighbourhood map" />
+
 ## API's used
 
 1. Knockoutjs
